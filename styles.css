@@ -1,0 +1,244 @@
+body {
+  height: 200%;
+  background-color: aqua;
+  min-width: 300px;
+  font-family: "OCR A Std", monospace;
+}
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+::-webkit-scrollbar-thumb {
+  width: 0.1rem;
+  background-color: #ffffff39;
+  border-radius: 1rem;
+}
+
+.container-body {
+  min-width: 300px;
+}
+.head {
+  height: 20%;
+  font-size: xx-large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: blue;
+}
+
+#desc {
+  height: 150px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.asklen {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 20px;
+  height: 10%;
+  width: 100%;
+}
+.slidebar {
+  width: 90%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+/* .sliderd {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+} */
+.slider {
+  text-align: center;
+  font-size: 15px;
+  height: 5%;
+  width: 90%;
+  display: flex;
+}
+.count {
+  width: 10%;
+  /* text-align: center; */
+  font-size: 15px;
+  color: red;
+}
+
+.charac {
+  font-size: xx-large;
+  font-size: 20px;
+  height: 20%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  text-align: left;
+  color: black;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  /* height: 40%; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.genrate {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.passtext {
+  width: 90%;
+}
+.copybut {
+  width: 100px;
+}
+
+.opt {
+  justify-content: center;
+  display: flex;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.box {
+  display: block;
+  color: blue;
+  width: 20px;
+  height: 20px;
+  stroke: blue;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  border-color: blue;
+  border-style: groove;
+  content: "";
+  background: blue;
+}
+#myInput {
+  font-size: 1.2rem;
+  height: 40px;
+  width: 90%;
+  border-style: inset;
+  border-radius: 5px;
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: scroll;
+  text-align: center;
+}
+
+.copy {
+  height: 30px;
+  width: 20%;
+  position: relative;
+  border-style: groove;
+  border-radius: 6px;
+  border-color: green;
+  font-size: 15px;
+  margin: 3px 3px 3px 3px;
+}
+
+.gene {
+  justify-content: center;
+  display: flex;
+}
+.gen {
+  justify-content: center;
+  height: 40px;
+  width: 400px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: indigo;
+  border-radius: 6px;
+  border-style: groove;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* @media screen and (max-width:600px) {
+  .asklen{
+    width: 100;
+  }
+} */
+
+@media screen and (max-width: 700px) {
+  #desc {
+    height: 180px;
+  }
+  .count {
+    width: 2%;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+  }
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 300px;
+  }
+  .options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .genrate {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .passtext {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copybut {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  .gen {
+    width: 80%;
+  }
+}
